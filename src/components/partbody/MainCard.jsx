@@ -6,7 +6,7 @@ export default class MainCard extends Component {
   
   render() {
     return (
-        <Card>
+        <Card style={{marginRight:'40px'}}> 
  <CardBody>
         <CardSubtitle>   
         <Media>
@@ -20,7 +20,7 @@ export default class MainCard extends Component {
         <Media heading className="MediaHeading">
           Media heading
         </Media>
-       1 hours ago
+        <small className="text-muted">Last updated 3 mins ago</small>
          </Media>
 
          <Badge style={{padding:'10px', }} color="primary" pill>+ Follow</Badge>
@@ -38,6 +38,7 @@ export default class MainCard extends Component {
         <CardBody>
             <CardTitle> Custom</CardTitle>
         <CardSubtitle><h2>CHOPPERLAND RE 350 VS CHOPPERLAND SR 400</h2></CardSubtitle>
+        <hr width="100%"></hr>
         </CardBody>
       
         <CardBody>
@@ -45,14 +46,13 @@ export default class MainCard extends Component {
             <Form>
             <FormGroup>
           <Input valid style={{backgroundColor:'#ebebe0', borderRadius:'30px'}} placeholder="Add Comment..."/>
-          <FormFeedback valid>Sweet! that name is available</FormFeedback>
-          <FormText>Example help text that remains unchanged.</FormText>
-        </FormGroup>
+           </FormGroup>
         </Form>
+        <hr width="100%"></hr>
         </CardSubtitle>
         </CardBody>
         <CardBody>
-        <CardSubtitle>View Comment</CardSubtitle>
+        <CardSubtitle style={{color:'blue'}}>View Comment</CardSubtitle>
         </CardBody>
         
       </Card>
