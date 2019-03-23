@@ -4,7 +4,8 @@ export default class AppNav extends Component {
   
   render() {
     return (
-      <div>
+      <div style={{color: 'danger'}}>
+        Satu
       </div>
     )
   }
