@@ -14,13 +14,17 @@ export default class AppBody extends Component {
   
   render() {
     return (
-      <div style={{backgroundColor:'grey', padding :'20px' }}> 
+      <div style={{backgroundColor:'#ececec'}} > 
     
         <AppCarousel />
-				<Container>
+				<Container >
         <Row>
-          <Col xs="6">	<MainCard /></Col>
-          <Col xs="6"><Account/>
+        <Col xs={12} md={8}
+           style={{backgroundColor:'red'}} 
+          >	<MainCard /></Col>
+          <Col xs={6} md={4}
+          style={{backgroundColor:'green'}}   
+          > <Account/>
 		<TopArticle/>
 	<Sugestion/>
 					</Col>
