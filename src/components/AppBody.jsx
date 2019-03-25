@@ -4,6 +4,9 @@ import MainCard from './partbody/MainCard'
 import TopArticle from './partbody/TopArticle';
 import Account from './partbody/Account';
 import Sugestion from './partbody/Suggestion';
+import Sign from'./Member/Sign'
+
+import Register from'./Member/Register'
 
 
 import { Container, Row, Col} from 'reactstrap';
@@ -32,7 +35,8 @@ export default class AppBody extends Component {
         </Row>
 
       </Container>
-		
+		<Sign />
+    <Register />
         
 						
 
