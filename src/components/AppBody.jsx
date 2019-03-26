@@ -7,9 +7,10 @@ import Sugestion from './partbody/Suggestion';
 import Sign from'./Member/Sign'
 
 import Register from'./Member/Register'
-
+import Member from './Member/Member'
 
 import { Container, Row, Col} from 'reactstrap';
+
 
 
 
@@ -37,6 +38,7 @@ export default class AppBody extends Component {
       </Container>
 		<Sign />
     <Register />
+    <Member/>
         
 						
 
