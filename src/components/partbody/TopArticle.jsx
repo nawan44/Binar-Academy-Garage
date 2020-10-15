@@ -1,61 +1,36 @@
 import React, { Component } from 'react'
-import { Card, CardImg, CardBody, FormFeedback, FormText,
-    CardTitle, CardSubtitle, Form, FormGroup, Badge, Input, Media} from 'reactstrap';
+import { Card, CardImg, CardBody, CardSubtitle,  Media} from 'reactstrap';
 
 
 export default class TopArticle extends Component {
   
   render() {
     return (
-        <Card>
+        <Card className="TopCard">
         <CardBody>
-               <CardSubtitle>   
+               <CardSubtitle style={{marginBottom:'40px'}}> 
+               <h3 style={{marginBottom:'30px'}}>Top Article </h3>  
                <Media>
-             <Media><CardImg style={{width:'70px', height:'70px', marginRight:'10px', borderRadius:'50%'}} src="
-             https://scontent.fcgk8-2.fna.fbcdn.net/v/t1.0-9/37228699_10156511912949419_5427734426052198400_n.jpg?_nc_cat=106&_nc_eui2=AeFbW0UNjyUU6wUYr2IRN9OeP8hreReeKw5JhLn4zpkqOk1EoX7p-oyHW8DTrHt5IrPnY0tK6xlY0Q6fIY6iv9XgAzUKHS8I46Du69aZ0qCGvQ&_nc_ht=scontent.fcgk8-2.fna&oh=c180ed12f4d6e241827c9bed4879df13&oe=5D034823
-             " className="Icon"
-             />
+             <Media><CardImg className="TopCardImg"
+             src="https://scontent.fcgk8-2.fna.fbcdn.net/v/t1.0-9/37228699_10156511912949419_5427734426052198400_n.jpg?_nc_cat=106&_nc_eui2=AeFbW0UNjyUU6wUYr2IRN9OeP8hreReeKw5JhLn4zpkqOk1EoX7p-oyHW8DTrHt5IrPnY0tK6xlY0Q6fIY6iv9XgAzUKHS8I46Du69aZ0qCGvQ&_nc_ht=scontent.fcgk8-2.fna&oh=c180ed12f4d6e241827c9bed4879df13&oe=5D034823
+             " />
                <Media  />
              </Media>
              <Media body>
-               <Media heading className="MediaHeading">
-                 Media heading
+               <Media heading className="MediaHeading" > 
+                 10 Gaya Motor Custom
                </Media>
-              1 hours ago
+               <small className="text-muted">Last updated 3 mins ago</small>
                 </Media>
        
-                <Badge style={{padding:'10px', }} color="primary" pill>+ Follow</Badge>
+                
            </Media>
                </CardSubtitle>
                </CardBody>
-               <CardBody>
-                 <CardTitle> <CardImg src="
-                 https://scontent.fcgk8-2.fna.fbcdn.net/v/t1.0-9/37228699_10156511912949419_5427734426052198400_n.jpg?_nc_cat=106&_nc_eui2=AeFbW0UNjyUU6wUYr2IRN9OeP8hreReeKw5JhLn4zpkqOk1EoX7p-oyHW8DTrHt5IrPnY0tK6xlY0Q6fIY6iv9XgAzUKHS8I46Du69aZ0qCGvQ&_nc_ht=scontent.fcgk8-2.fna&oh=c180ed12f4d6e241827c9bed4879df13&oe=5D034823
-                          "
-                 /> </CardTitle>       
-                
-       
-               </CardBody>
-               <CardBody>
-                   <CardTitle> Custom</CardTitle>
-               <CardSubtitle><h2>CHOPPERLAND RE 350 VS CHOPPERLAND SR 400</h2></CardSubtitle>
-               </CardBody>
-             
-               <CardBody>
-               <CardSubtitle>
-                   <Form>
-                   <FormGroup>
-                 <Input valid style={{backgroundColor:'#ebebe0', borderRadius:'30px'}} placeholder="Add Comment..."/>
-                 <FormFeedback valid>Sweet! that name is available</FormFeedback>
-                 <FormText>Example help text that remains unchanged.</FormText>
-               </FormGroup>
-               </Form>
-               </CardSubtitle>
-               </CardBody>
-               <CardBody>
-               <CardSubtitle>View Comment</CardSubtitle>
-               </CardBody>
-               
+               <hr width="100%"></hr>
+               <div className="TopDiv">
+                   Read More
+               </div>
              </Card>
     )
   }

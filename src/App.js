@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 class App extends Component {
   render() {
     return (
@@ -20,6 +21,12 @@ class App extends Component {
             Learn React
           </a>
         </header>
+
+        <style>
+.ck-editor__editable {
+    min-height: 400px;
+}
+</style>
       </div>
     );
   }

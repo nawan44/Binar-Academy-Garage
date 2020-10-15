@@ -1,0 +1,426 @@
+.PageArticleCoverContainer{
+    margin-top:70px;
+    margin-bottom:70px;
+}
+.PageArticleCoverContainerImage{
+    width:877px; 
+    height:625px; 
+    border-radius:5px;
+    box-shadow: 0 4px 4px 0 rgba(0 0 0 0.1); 
+    background-color:#ffffff;
+}
+.PageArticleCoverContainerImageh2{
+    color:#8c8c8c; 
+    font-size:28px; 
+    margin:42px;
+}
+.PageArticleCoverContainerCard{
+    width:797px; 
+    height:375px; 
+    background-color:#ebebeb;
+    margin-top:30px ; 
+    margin-bottom:30px; 
+    margin-left:40px; 
+    margin-right:40px;
+}
+.PageArticleCoverContainerCardh3{
+    margin:auto; 
+    margin-bottom:21px; 
+    color:#8c8c8c; 
+    font-size:18px ;
+}
+.PageArticleCoverButton{
+    margin:auto; 
+    background-color:#2e4ffc; 
+    width:171.4px; 
+    height:45px;
+    padding-top:10px; 
+    font-size:20px; 
+    color:#ffffff; 
+    text-align:center; 
+    border-radius:99px
+}
+.PageArticleCoverCardDrop{
+    width:797px; 
+    height:auto; 
+    background-color:#ffffff;
+    margin-top:30px ; 
+    margin-bottom:30px; 
+    margin-left:40px; 
+    margin-right:40px
+}
+
+.PageArticleCoverDropDownToggle{
+    width:797px; 
+    height:auto; 
+    background-color:#ffffff; 
+    font-family: roboto; 
+    text-align:left;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #959595
+}
+.PageArticleCoverDropDownItem{
+    width:797px; height:auto; 
+    background-color:#ffffff; 
+    font-family: roboto;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #959595
+}
+
+.CreateArticleBody{
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 877px;
+    height: 535px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0 0 0 0.1);
+    background-color: #ffffff;
+}
+
+.CreateEventContainer{
+    width:100%; 
+    height:100%; 
+    margin:auto; 
+    margin-top:50px; 
+    margin-bottom:50px;
+}
+.CreateEventContainerh2{
+    margin-bottom:50px; 
+    margin-top:30px;
+}
+.CreateEventContainerDiv{
+    width: 1050px; 
+    height: 1613px; 
+    margin:auto; 
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0 0 0 0.1);
+    background-color: #ffffff;
+}
+.CreateEventContainerDivLabel{
+    width: 248px; 
+    margin-bottom:30px; 
+    margin-top:40px;
+    height:33px;
+    margin-left:50px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #414141
+}
+.CreateEventContainerForm{
+    margin:auto; 
+    padding-left:50px; 
+    padding-right:50px
+}
+.CreateEventContainerFormCard{
+    margin-top:30px; 
+    width: 950px;
+    height: 300px;
+    border-radius: 3px;
+    border: solid 1px #d9d9d9;
+    background-color:#f5f5f5;
+}
+.CreateEventContainerFormImg{
+    width: 100px; 
+    margin:auto;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 3px;
+    border: solid 1px #d9d9d9;
+    background-color:#f5f5f5
+}
+.CreateEventContainerFormImgh2{
+    width: 177px;  
+    height: 33px;
+    font-family: Roboto; 
+    margin:auto; 
+    margin-top:2px;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #959595;
+}
+.CreateEventContainerFormLabel{
+    width: 248px;
+    height:33px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #414141;
+}
+.CreateEventContainerFormInput{
+    width: 950px;
+    height: 65px;
+    font-size: 28px;
+    border-radius: 3px;
+    border: solid 1px #838383;
+    background-color: #ffffff;
+}
+.CreateEventContainerFormButton{
+    width: 171.4px;
+    height: 50px; 
+    margin-top:30px;
+    border-radius: 99px;
+    background-color: #2e4ffc;
+    font-family: roboto;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    float: right;
+
+}
+.PageEventCard{
+    width: 775px;
+    height: auto;
+    background-color: #ffffff; 
+    margin:auto; 
+    margin-bottom:40px; 
+    margin-top:40px
+}
+.PageEventCardImg{
+    width:60px; 
+    height:60px; 
+    margin-right:40px; 
+    border-radius:50%
+}
+.PageEventButton{
+    width: 120px; 
+    padding:10px;
+    height: 35px; 
+    margin-top:10px;
+    border-radius: 99px;
+    background-color: #2e4ffc;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    float: right;
+}
+.PageEventColX3{
+    margin:auto;
+    width: 50px; 
+    text-align:center;
+    height: 33px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e4ffc;
+}
+.PageEventColAuto{
+    width: 570px;
+    height: 79px;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    color: #2e2e2e
+}
+.PageEventCardImg{
+    width:20px; 
+    height:20px;
+    margin-top:20px; 
+    margin-left:40px; 
+    margin-right:40px;
+    border-radius:50%;
+}
+.PageEventMedia{
+    width: 339px;
+    height: 24px; 
+    margin-top:20px;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e2e2e;
+     
+}
+
+.PageProfileRow{
+    margin:auto;
+    width: 100%;
+    height: 249px; padding:auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0 0 0 0.1);
+    border: solid 1px #d6d6d6;
+    background-color: #ffffff;
+}
+.PageProfileAvatar{
+    width:150px; 
+    height:150px; 
+    margin-right:40px; 
+    border-radius:50%;
+}
+.PageProfileEdit{
+    width:35px; 
+    height:35px; 
+    margin-right:40px; 
+    border-radius:50% ;
+}
+.PageProfileXS6{
+    width: 429px;
+    height: 80px; 
+    text-align:center; 
+    padding: 20px;
+    border-radius: 5px; 
+    font-family: roboto;
+    font-size: 24px;
+    border: solid 1px #d6d6d6;
+    background-color: #ffffff
+}
+.PageProfileContainerRow{
+    width: 1162px;
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0 0 0 0.1);
+    border: solid 1px #d6d6d6;
+    background-color: #ffffff;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-family: roboto;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e2e2e;   
+}
+.PageProfileXS6ArticleEvent{ 
+    height: 80px;
+    padding:20px;
+    text-align:center; 
+    border: solid 1px #d6d6d6;
+    margin:auto
+}
+.PageProfileCard{
+    margin-top:40px; 
+    width: 560px; 
+    height: 456px; 
+    border-radius:7px; 
+    box-shadow:0 4px 4px 0 rgba(0 0 0 0.1)       
+}
+.PageProfileCardTitle{
+    height:24px; 
+    margin-bottom:15px; 
+    margin-top:15px; 
+    color:#626262; 
+    font-size:20px;
+}
+.PageProfileCardSubtitleh2{
+    height:66px; 
+    font-size:21px; 
+    color:#2e2e2e ;
+}
+
+.PageDetailArtilceCard{
+    margin:auto; 
+    margin-top:40px; 
+    margin-bottom:40px;
+    width:776px; 
+    height:auto; 
+    border-radius:7px; 
+    box-shadow:0 4px 4px 0 rgba(0 0 0 0.1) ;
+}
+.PageDetailArticleCardImgAvatar{
+    width:60px; 
+    height:60px; 
+    margin-right:40px; 
+    border-radius:50%;
+}
+.PageDetailArticleMeidaNama{
+    height:33px; 
+    font-size:28px; 
+    margin-bottom:6px 
+}
+.PageDetailArticleButtonFollow{
+    width: 120px; 
+    padding:10px; 
+    height: 35px; 
+    margin-top:10px; 
+    border-radius: 99px;
+    background-color: #2e4ffc; 
+    font-family: roboto; 
+    font-size: 16px; 
+    font-weight: 500; 
+    font-style: normal; 
+    font-stretch: normal; 
+    line-height: normal; 
+    letter-spacing: normal; 
+    color: #ffffff
+}
+
+.PageDetailArticleCardTitle{
+    text-align: center;
+    width: 735px;
+    height: 85px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e2e2e;
+}
+
+.PageDetailArticleCardImgContent{
+    width: 772px;
+    height: 435.8px;
+}
+.PageDetailArticleMain{
+    width: 716px;
+    height: auto;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    color: #2e2e2e;
+    padding: 30px;
+}
+
+
